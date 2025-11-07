@@ -35,7 +35,6 @@ function getDNSStats(domains) {
       if(!searchKey) result[storage] = 1;
     }
   })
-  console.log(result);
   return result
 }
 

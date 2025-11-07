@@ -13,7 +13,6 @@ const { NotImplementedError } = require('../lib');
  */
 
 function getCommonCharacterCount(s1, s2) {
-  console.log(s1, s2);
   const arrayS2 = [...s2];
   return [...s1].reduce((acc, value) => {
     const index = arrayS2.indexOf(value);
